@@ -1,0 +1,250 @@
+@media all and (max-width: 1110px) {
+    #final {
+        padding: 1% 15%;
+    }
+}
+
+@media all and (max-width: 980px) {
+    header {
+        height: 60px;
+    }
+    #primeiro {
+        padding-top: 7%;
+        height: 450px;
+    }
+    #video {
+        padding-top: 7%;
+    }
+    #legenda {
+        height: 90px;
+    }
+    footer #dois {
+        padding-left: 5%;
+    }
+}
+
+@media all and (max-width: 775px) {
+    #logo {
+        width: 15%;
+        margin-left: 0;
+        position: relative;
+        left: 43%;
+        right: 35%;
+    }
+    #menu {
+        visibility: hidden;
+    }
+    #primeiro {
+        height: 500px;
+    }
+    .coluna, .coluna2 {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin: 2px;
+    }
+    #legenda {
+        margin-top: 30%;
+        margin-right: 15%;
+        height: 70px;
+    }
+    #final {
+        padding: 1% 10%;
+    }
+    footer {
+        padding-left: 0%;
+    }
+}
+
+@media all and (max-width: 680px) {
+    #primeiro {
+        height: 350px;
+    }
+    #primeiro h1 {
+        font-size: 300%;
+    }
+    #primeiro h2 {
+        font-size: 200%;
+    }
+    #projeto {
+        display: flex;
+        flex-direction: column;
+    }
+    #video {
+        width: 100%;
+    }
+    #legenda {
+        margin-top: 25%;
+        margin-right: 10%;
+        height: 70px;
+    }
+    #final {
+        padding: 1% 5%;
+    }
+    footer #um {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 570px) {
+    #primeiro {
+        height: 320px;
+    }
+    #primeiro h1 {
+        font-size: 250%;
+    }
+    #primeiro h2 {
+        font-size: 150%;
+    }
+    #health {
+        top: 15%;
+    }
+    #wellbeing {
+        top: 15%;
+        right: 3%;
+    }
+    h3 {
+        text-align: left;
+        font-size: 130%;
+    }
+    #sobre {
+        font-size: 130%;
+    }
+    .texto, .intro, li, #final p {
+        font-size: 90%;
+    }
+    #mapa {
+        display: flex;
+        flex-direction: column;
+    }
+    .image {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #legenda {
+        margin: 1% 20% 0% 20%;
+        height: 55px;
+    }
+    .coluna, .coluna2 {
+        width: 35%;
+    }
+    #final {
+        display: flex;
+        flex-direction: column;
+    }
+    #final img {
+        width: 35%;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer #um {
+        width: 100%;
+    }
+    footer #dois {
+        text-align: left;
+        padding-left: 0%;
+        margin: 0%;
+    }
+    footer #dois h4 {
+        padding-right: 0%;
+        padding-left: 5%;
+    }
+    #canva {
+        padding-left: 17%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    #logo {
+        width: 25%;
+    }
+    #primeiro {
+        height: 380px;
+        padding: 7% 5% 8% 5%;
+    }
+    #primeiro h2 {
+        margin-top: 36%;
+    }
+    #health {
+        width: 20%;
+        top: 25%;
+        left: 25%;
+        right: 25%;
+    }
+    #wellbeing {
+        width: 25%;
+        top: 25%;
+        right: 25%;
+        left: 50%;
+    }
+    #legenda {
+        margin-right: 15%;
+        margin-left: 15%;
+        height: 70px;
+    }
+    .coluna, .coluna2 {
+        width: 55%;
+    }
+    #canva {
+        padding-left: 25%;
+    }
+}
+
+@media all and (max-width: 330px) {
+    #logo {
+        width: 35%;
+    }
+    .image {
+        margin: 1% 5%;
+        width: 90%;
+    }
+    #legenda {
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 85px;
+    }
+    .coluna, .coluna2 {
+        width: 75%;
+    }
+    #final img {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 270px) {
+    header {
+        height: 50px;
+    }
+    #primeiro {
+        height: 350%;
+    }
+    #health {
+        width: 25%;
+        top: 25%;
+        left: 25%;
+        right: 25%;
+    }
+    #wellbeing {
+        width: 30%;
+        top: 25%;
+        right: 25%;
+        left: 50%;
+    }
+    .image {
+        margin: 1% 1%;
+        width: 100%;
+    }
+    #legenda {
+        margin-right: 10%;
+        margin-left: 10%;
+        height: 90px;
+    }
+    .coluna, .coluna2 {
+        width: 95%;
+    }
+    #final img {
+        width: 70%;
+    }
+}

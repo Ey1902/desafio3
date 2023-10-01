@@ -1,0 +1,218 @@
+body,html {
+    margin: auto;
+    border: 5px solid rgb(76, 159, 56);
+    background-color: rgb(197, 197, 197);
+    text-align: justify;
+}
+
+header {
+    background-color: rgb(76, 159, 56, 0.7);
+    color: rgb(197, 197, 197);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 15;
+}
+#logo {
+    width: 10%;
+    position: absolute;
+    top: 5px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    width: 520px;
+    padding-left: 60px;
+    padding-right: 35px;
+    top: 5px;
+    list-style: none;
+}
+.lista a {
+    float: left;
+    padding: 1% 2%;
+    margin-right: 0;
+    color: black;
+}
+.lista a:hover {
+    color: rgb(22, 66, 11);
+    background-color: rgb(197, 197, 197);
+    border-radius: 50%;
+}
+.lista a:visited {
+    color: rgba(153, 54, 54, 0.384);
+}
+
+#primeiro {
+    height: 400px;
+    text-align: center;
+    padding: 10% 25% 8% 22%;
+    background-color: rgb(76, 159, 56);
+}
+#health {
+    position: absolute;
+    top: 31%;
+    right: 75%;
+    left: 5%;
+}
+#wellbeing {
+    position: absolute;
+    top: 31%;
+    right: 5%;
+    left: 75%;
+}
+#botao a {
+    clear: both;
+    text-align: center;
+    align-items: center;
+    color: black;
+    border: dashed 2px rgb(22, 66, 11);
+    background-image: linear-gradient(rgb(76, 159, 56), rgb(186, 212, 180), rgb(76, 159, 56));
+    width: 160px;
+    padding: 1%;
+}
+#botao a:hover {
+    font-size: x-large;
+}
+#botao a:visited {
+    color: rgba(153, 54, 54, 0.384);
+}
+
+h1 {
+    font-size: 410%;
+    position: relative;
+    text-shadow: 2px 2px 5px rgb(14, 41, 7);
+}
+h2 {
+    position: relative;
+    font-size: 250%;
+    color: rgb(19, 61, 8);
+    border-top: 3px solid rgb(22, 66, 11);
+}
+h3 {
+    padding-left: 5%;
+    font-size: 200%;
+}
+.texto {
+    font-size: 110%;
+}
+
+#projeto {
+    background-color: rgb(197, 197, 197);
+    padding: 1% 2%;
+    display: flex;
+}
+#sobre {
+    text-align: center;
+    font-size: 200%;
+}
+.intro {
+    text-align: justify;
+    font-size: 110%;
+    margin-right: 1%;
+}
+#video {
+    width: 125%;
+}
+
+#metas {
+    clear: both;
+    background-color: rgb(186, 212, 180);
+    padding: 1% 2%;
+}
+ol {
+    padding: 0% 4% 0% 6%;
+    font-size: 110%;
+}
+ul {
+    padding: 0% 6% 0% 8%;
+    font-size: 110%;
+}
+
+#recursos {
+    clear: both;
+    background-color: rgb(186, 212, 180);
+    padding: 1% 2%;
+}
+
+#acts {
+    clear: both;
+    background-color: rgb(197, 197, 197);
+    padding: 1% 2%;
+}
+#mapa {
+    display: flex;
+}
+.image {
+    opacity: 70%;
+}
+.image:hover {
+    opacity: 100%;
+}
+#legenda {
+    margin: 30% 28% 0% 1%;
+    height: 80px;
+    border: dashed 2px rgb(76, 159, 56);
+}
+
+#parceiros {
+    clear: both;
+    background-color: rgb(197, 197, 197);
+    padding: 1% 2%;
+}
+.coluna {
+    display: flex;
+    width: 100%;
+    opacity: 50%;
+}
+.coluna2 {
+    display: flex;
+    width: 50%;
+    opacity: 50%;
+}
+.coluna div {
+    margin-right: 1%;
+    text-align: center;
+}
+.coluna2 div {
+    margin-right: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+.coluna:hover, .coluna2:hover {
+    opacity: 100%;
+}
+
+#final {
+    clear: both;
+    background-color: rgb(27, 61, 19);
+    color: rgb(197, 197, 197);
+    padding: 1% 20%;
+    display: flex;
+}
+#final div p {
+    font-size: 110%;
+    text-align: justify;
+    padding-right: 2%;
+}
+
+footer {
+    clear: both;
+    padding: 1% 2%;
+    display: flex;
+    background-color: rgb(76, 159, 56);
+}
+h4 {
+    padding-left: 5%;
+    font-size: 130%;
+}
+footer #dois {
+    margin-left: 1%;
+    padding-left: 25%;
+    text-align: right;
+}
+footer #dois h4 {
+    padding-right: 10%;
+}
+#canva {
+    padding-right: 45%;
+}

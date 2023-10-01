@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saúde e Bem-Estar - ODS</title>
-    <link rel="stylesheet" href="estilo.css" type="text/css">
-    <meta name="viewport" content="width:device-widt, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="./css/responsivo.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
@@ -27,17 +28,15 @@
         <h4 id="botao"><a href="#projeto">Sobre o Projeto</a></h4>
     </div>
     <section id="projeto">
-        <div class="coluna">
+        <div>
             <h3 id="sobre">Sobre o Projeto</h3>
             <p class="intro">A Organização da Nações Unidas (ONU), juntamente com seus associados brasileiros, estão realizando atividades no país a fim de atingir os Objetivos de Desenvolvimento Sustentável, que se trata de 17 objetivos voltados às dificuldades enfrentadas pelos países para alcançar o desenvolvimento. Desses objetivos, o terceiro é voltado à Saúde e ao Bem-Estar, com o intuito de garantir o acesso à saúde de qualidade e promover o bem-estar para todos, em todas as idades.</p>
-            <p class="intro">Veja ao lado um pequeno vídeo elaborado pelo IBGE, detalhando um pouco mais sobre esse objetivo:</p>
+            <p class="intro">Veja a seguir um pequeno vídeo elaborado pelo IBGE, detalhando um pouco mais sobre esse objetivo:</p>
         </div>
-        <div class="coluna">
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LMOynUxsGHo?si=QL8Eb_8DihaoTfzP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        <iframe id="video" src="https://www.youtube.com/embed/LMOynUxsGHo?si=QL8Eb_8DihaoTfzP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
     <section id="metas">
-        <h3 class="outros">Metas do Projeto</h3>
+        <h3>Metas do Projeto</h3>
         <p class="texto">Para alcançar esse objetivo, a ONU estabeleceu algumas metas a serem atingidas até 2030:</p>
         <ol>
             <li>Reduzir a taxa de mortalidade materna global para menos de 70 mortes por 100.000 nascidos vivos;</li>
@@ -58,56 +57,112 @@
         </ul>
     </section>
     <section id="acts">
-        <h3 class="outros">Atividades em Andamento</h3>
+        <h3>Atividades em Andamento</h3>
         <P class="texto">Até o ano de 2022, o Brasil já possuía um total de 24 atividades empregadas em nível nacional e 189 atividades implementadas em diferentes localidades em todo o país, conforme ilustra a imagem abaixo:</P>
-        <div class="coluna">
-            <img class="mapa" src="./img/activs.png" alt="Localização das atividades realizadas pela ONU no Brasil, representadas no mapa" width="100%">
-        </div>
-        <div class="coluna">
+        <div id="mapa">
+            <img class="image" src="./img/activs.png" alt="Localização das atividades realizadas pela ONU no Brasil, representadas no mapa" width="50%" height="50%">
             <p id="legenda">Em laranja, atividades empregadas em nível nacional e, em azul, atividades com localidades detalhadas</p>
         </div>
     </section>
     <section id="recursos">
-        <h3 class="outros">Recursos e Investimentos no Brasil</h3>
+        <h3>Recursos e Investimentos no Brasil</h3>
         <p class="texto">Até 2022, o Brasil possuía um total de $191,3 milhões em recursos disponíveis para uso nos Objetivos de Desenvolvimento Sustentável, dos quais 11,8% - média de $22,5 milhões - são reservados à Saúde e Bem-Estar.</p>
     </section>
     <section id="parceiros">
-        <h3 class="outros">Parceiros Associados no Brasil</h3>
+        <h3>Parceiros Associados no Brasil</h3>
         <p class="texto">Essas ações contam com o apoio de parceiros Contribuintes e Implementares.</p>
-        <div class="coluna">
+        <div>
             <p><b>Parceiros Contribuintes:</b></p>
-            <div class="contribuintes" style="position: relative; width: 50%; height: 0; padding-top: 50%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
-                <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtUxD-1u0&#x2F;view?embed" allowfullscreen> </iframe>
+            <div class="coluna">
+                <div>
+                    <img src="./img/contribuintes/1.png" width="100%">
+                        <figcaption><i>UNICEF Other Resources</i></figcaption>
+                </div>
+                <div>
+                    <img src="./img/contribuintes/2.png" width="100%">
+                        <figcaption><i>UNHCR Multidonor</i></figcaption>
+                </div>
+                <div>
+                    <img src="./img/contribuintes/3.png" width="100%">
+                        <figcaption>Fundo Global para o Meio Ambiente</figcaption>
+                </div>
+                <div>
+                    <img src="./img/contribuintes/4.png" width="100%">
+                        <figcaption>Agência Brasileira de Cooperação</figcaption>
+                </div>
+                <div>
+                    <img src="./img/contribuintes/5.png" width="100%">
+                        <figcaption>Governo do Estado da Bahia</figcaption>
+                </div>
+                <div>
+                    <img src="./img/contribuintes/6.png" width="100%">
+                        <figcaption>Governo do Estado do Piauí</figcaption>
+                </div>
             </div>
-            <a class="contribuintes" href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtUxD-1u0&#x2F;view?utm_content=DAFtUxD-1u0&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Parceiros Contribuintes</a>
-        </div>
-        <div class="coluna">
+            <div class="coluna2">
+                <div>
+                    <img src="./img/contribuintes/7.png" width="100%">
+                        <figcaption>Governo do Estado de Rondônia</figcaption>
+                </div>
+                <div>
+                    <img src="./img/contribuintes/8.png" width="100%">
+                        <figcaption><i>The US Government Department of States - Bureau of Population, Refugees and Migration</i></figcaption>
+                </div>
+                <div>
+                    <img src="./img/contribuintes/9.png" width="100%">
+                        <figcaption>Ministério da Saúde</figcaption>
+                </div>
+            </div>
             <p><b>Parceiros Implementares:</b></p>
-            <div class="implementares" style="position: relative; width: 50%; height: 0; padding-top: 50%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
-                <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtWWklurc&#x2F;view?embed" allowfullscreen></iframe>
+            <div class="coluna">
+                <div>
+                    <img src="./img/implementares/1.png" width="100%">
+                        <figcaption>Agência Adventista de Desenvolvimento e Recursos Assistenciais</figcaption>
+                </div>
+                <div>
+                    <img src="./img/implementares/2.png" width="100%">
+                        <figcaption>Asssociação dos Voluntários para o Serviço Internacional</figcaption>
+                </div>
+                <div>
+                    <img src="./img/implementares/3.png" width="100%">
+                        <figcaption>Cáritas Arquidiocesana de São Paulo e do Rio de Janeiro</figcaption>
+                </div>
+                <div>
+                    <img src="./img/implementares/4.png" width="100%">
+                        <figcaption>Ministério da Saúde</figcaption>
+                </div>
+                <div>
+                    <img src="./img/implementares/5.png" width="100%">
+                        <figcaption>Ministério do Meio Ambiente</figcaption>
+                </div>
+                <div>
+                    <img src="./img/implementares/6.png" width="100%">
+                        <figcaption>Ministério da Cidadania</figcaption>
+                </div>
+                <div>
+                    <img src="./img/implementares/7.png" width="100%">
+                        <figcaption>Ministério da Mulher, da Família e dos Direitos Humanos</figcaption>
+                </div>
             </div>
-            <a class="implementares" href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtWWklurc&#x2F;view?utm_content=DAFtWWklurc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Parceiros Implementares</a>
         </div>
     </section>
     <section id="final">
-        <div class="colunaf">
-            <img id="perfil" src="./img/perfil-pro.png" alt="minha foto" width="15%">
+        <div>
+            <h3>Sobre mim</h3>
+            <p>Me chamo Tamires da Luz Batista, tenho 23 anos e estou sempre em busca de adquirir novos conhecimentos.</p>
         </div>
-        <div class="colunaf">
-            <h3 id="eu">Sobre mim</h3>
-            <p id="apresentacao">Me chamo Tamires da Luz Batista, tenho 23 anos e estou sempre em busca de adquirir novos conhecimentos.</p>
-        </div>
+            <img src="./img/perfil-pro.png" alt="minha foto" width="25%">
     </section>
 </body>
 <footer>
-    <div class="colunae">
+    <div id="um">
         <h4>Meu Primeiro Site</h4>
         <p>Site confeccionado para entrega de atividade da plataforma Inspira JA.</p>
         <span>
             &copy; Tamires da Luz Batista, 2023
         </span>
     </div>
-    <div class="colunae">
+    <div id="dois">
         <h4>Créditos:</h4>
         <p><b>Conteúdo:</b> <a href="https://brasil.un.org/pt-br/sdgs" target="_blank">Nações Unidas Brasil</a></p>
         <p><b>Imagens:</b> <a href="https://brasil.un.org/pt-br/sdgs" target="_blank">Nações Unidas Brasil</a></p>
